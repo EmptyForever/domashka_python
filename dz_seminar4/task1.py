@@ -18,7 +18,7 @@
 # a.intersection(b)   
 
 list_1 = [2, 4, 6, 8, 10, 12, 10, 8, 6, 4, 2]
-list_2 = [3, 9, 15, 18]
+list_2 = [3, 6, 12, 9, 15, 18]
 set1 = set(list_1)
 set2 = set(list_2)
 print(set1, set2)
@@ -27,4 +27,4 @@ if peresech1_2 == []:
     print("net peresecheni")
 else:
     peresech1_2.sort()
-    print(peresech1_2)
+    print(*peresech1_2)
